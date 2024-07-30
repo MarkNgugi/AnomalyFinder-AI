@@ -1,2 +1,2 @@
 # AnomalyFinder-AI
-ChatGPT  AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data from various systems and applications. It identifies irregular patterns, provides descriptions of anomalies, and suggests solutions to prevent issues. 
+AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data from various systems and applications. It identifies irregular patterns, provides descriptions of anomalies, and suggests solutions to prevent issues. 
