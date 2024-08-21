@@ -57,3 +57,16 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Unexpected Software Uninstallations**: Removal of important or critical software applications.
 
 
+## Performance and Resource Issues
+
+- **Memory Leaks**: Indications of memory leaks or excessive memory usage by applications.
+- **Disk Space Exhaustion**: Low or critically low disk space on system drives.
+- **High Disk I/O**: Unusual or excessive disk input/output operations.
+- **Slow System Performance**: General system performance degradation or slowness.
+- **Application Startup Delays**: Unusual delays in application startup times.
+- **Network Latency Spikes**: Increased network latency or connectivity issues.
+- **High Network Traffic**: Unusual spikes in network traffic volumes.
+- **Failed Backup Operations**: Repeated failures in backup operations or services.
+- **Service Delays**: Delays in starting or stopping critical services.
+- **Unusual CPU Usage**: High or fluctuating CPU usage by processes or services.
+
