@@ -14,3 +14,18 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **High Number of Account Changes**: Frequent changes in user account properties or permissions.
 - **Unexpected Password Changes**: Changes in user passwords that are not initiated by the user.
 
+
+## System and Application Errors
+
+- **Frequent System Reboots**: Unscheduled or frequent system reboots.
+- **Application Crashes**: High frequency of application crashes or unexpected terminations.
+- **Service Failures**: Repeated failures of critical services or system components.
+- **Blue Screen of Death (BSOD)**: Unplanned system crashes resulting in BSOD errors.
+- **Event Log Corruption**: Errors indicating corruption or issues with the event log itself.
+- **High System Resource Usage**: Unusual spikes in CPU, memory, or disk usage.
+- **Unexpected System Shutdowns**: Abrupt or unexpected system shutdowns.
+- **Driver Failures**: Frequent failures of hardware drivers or device malfunctions.
+- **Unusual Error Codes**: Uncommon or unexpected error codes in system logs.
+- **Unhandled Exceptions**: Frequent unhandled exceptions in applications.
+
+
