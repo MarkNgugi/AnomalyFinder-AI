@@ -70,3 +70,17 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Service Delays**: Delays in starting or stopping critical services.
 - **Unusual CPU Usage**: High or fluctuating CPU usage by processes or services.
 
+
+## User and Group Activities
+
+- **Unusual User Behavior**: Unusual or abnormal user activities compared to baseline behavior.
+- **Unexpected User Account Creation**: Creation of new user accounts without proper authorization.
+- **Group Policy Application Failures**: Failures in applying or enforcing group policies.
+- **Abnormal User Logout**: Frequent or unexpected user logouts or session terminations.
+- **Multiple Failed Access Attempts**: Numerous failed attempts to access restricted areas.
+- **User Account Enumeration**: Attempts to enumerate or discover valid user accounts.
+- **Suspicious Remote Access**: Remote access attempts from unfamiliar or untrusted sources.
+- **Unusual User Privilege Assignments**: Assignments of elevated privileges or permissions to users.
+- **High Volume of Login Attempts**: Excessive login attempts from a single user or IP.
+- **Unexpected User Profile Changes**: Unplanned changes to user profiles or settings.
+
