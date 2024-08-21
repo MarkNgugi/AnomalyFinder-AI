@@ -29,3 +29,17 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Unhandled Exceptions**: Frequent unhandled exceptions in applications.
 
 
+## Security Events
+
+- **Malware Detection Alerts**: Alerts from antivirus or security software about detected malware.
+- **Unauthorized Access to Sensitive Files**: Access attempts to sensitive or restricted files.
+- **Suspicious PowerShell Commands**: Execution of unusual or potentially harmful PowerShell commands.
+- **File Integrity Changes**: Unexpected changes to critical system or application files.
+- **Unusual Network Connections**: Connections to unknown or unauthorized network addresses.
+- **Unauthorized Administrative Actions**: Administrative actions performed by non-administrative users.
+- **Event Log Clearing**: Unusual clearing or modification of event log entries.
+- **Failed Antivirus Scans**: Repeated failures of antivirus or security scans.
+- **Network Intrusion Attempts**: Detected attempts to exploit vulnerabilities in the network.
+- **Unusual Port Scanning**: Detection of port scanning activities from unfamiliar sources.
+
+
