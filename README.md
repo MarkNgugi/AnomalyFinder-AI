@@ -112,3 +112,17 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Unexpected Kernel Mode Changes**: Changes in kernel mode or low-level system components.
 - **Integrity Violations**: Violations of file or system integrity checks.
 
+
+## Other Potential Anomalies
+
+- **Unusual Event Log Size Increases**: Unexpected increases in the size of event logs.
+- **High Number of Failed Service Starts**: A high number of failed attempts to start critical services.
+- **Unexpected Service Restarts**: Frequent or unexpected restarts of important system services.
+- **Unplanned Device Changes**: Detection of unexpected changes in hardware or device configurations.
+- **Anomalous System Time Changes**: Changes in system time that do not align with expected patterns.
+- **Failed Device Drivers**: Errors or failures related to device drivers.
+- **Unexpected System Parameter Changes**: Modifications to system parameters or settings that are not part of regular updates.
+- **Unusual Event Types**: Detection of event types that are not commonly recorded in the logs.
+- **High Frequency of Security Events**: Increased frequency of security-related events such as failed logins or access denials.
+- **Unexpected System Configuration Drift**: Changes in system configuration that deviate from known baselines or expected configurations.
+
