@@ -43,3 +43,17 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Unusual Port Scanning**: Detection of port scanning activities from unfamiliar sources.
 
 
+## Configuration Changes
+
+- **Unexpected Changes in Security Policies**: Modifications to security policies or settings without authorization.
+- **Alterations to Group Policies**: Unexpected changes to group policy settings.
+- **Configuration File Changes**: Unusual changes in configuration files for critical applications or services.
+- **Unplanned Software Installations**: Unauthorized or unplanned installations of software.
+- **Changes in System Services**: Modifications to critical system services or their configurations.
+- **Group Membership Changes**: Unexpected changes in user group memberships.
+- **Registry Changes**: Unauthorized modifications to the Windows Registry.
+- **Changes in Scheduled Tasks**: Creation or modification of scheduled tasks that were not planned.
+- **Firewall Rule Changes**: Unplanned changes in firewall rules or configurations.
+- **Unexpected Software Uninstallations**: Removal of important or critical software applications.
+
+
