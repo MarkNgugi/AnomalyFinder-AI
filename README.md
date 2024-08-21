@@ -84,3 +84,16 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **High Volume of Login Attempts**: Excessive login attempts from a single user or IP.
 - **Unexpected User Profile Changes**: Unplanned changes to user profiles or settings.
 
+
+## Network and Connectivity
+
+- **Failed Network Connections**: Failed or refused network connection attempts.
+- **Unusual Outbound Connections**: Unexpected outbound network connections to unknown destinations.
+- **IP Address Changes**: Frequent or unexpected changes in IP address assignments.
+- **DNS Resolution Failures**: Failures in resolving DNS queries or unusual DNS requests.
+- **Suspicious Network Protocols**: Detection of unusual or unauthorized network protocols.
+- **Network Configuration Changes**: Unauthorized changes in network configuration settings.
+- **Network Interface Errors**: Errors related to network interface cards or connections.
+- **Suspicious Traffic Patterns**: Detection of abnormal traffic patterns that deviate from normal.
+- **Intrusion Detection System (IDS) Alerts**: Alerts from IDS about potential network intrusions.
+- **Unusual VPN Connections**: Connections to VPNs that are not typically used or expected.
