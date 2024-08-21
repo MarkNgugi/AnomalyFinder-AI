@@ -97,3 +97,18 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 - **Suspicious Traffic Patterns**: Detection of abnormal traffic patterns that deviate from normal.
 - **Intrusion Detection System (IDS) Alerts**: Alerts from IDS about potential network intrusions.
 - **Unusual VPN Connections**: Connections to VPNs that are not typically used or expected.
+
+
+## System Integrity
+
+- **Unauthorized File Changes**: Changes to system or application files without authorization.
+- **System Integrity Check Failures**: Failures in system integrity checks or file verification processes.
+- **Missing Critical Files**: Detection of missing or deleted critical system files.
+- **Unexpected System File Modifications**: Modifications to system files that are not part of regular updates or maintenance.
+- **Unauthorized Software Execution**: Execution of unauthorized or unapproved software applications.
+- **Changes in System Configuration Files**: Unauthorized changes to system configuration files.
+- **Unverified Software Installations**: Installation of software from untrusted sources.
+- **Corrupted System Files**: Detection of corruption in critical system files.
+- **Unexpected Kernel Mode Changes**: Changes in kernel mode or low-level system components.
+- **Integrity Violations**: Violations of file or system integrity checks.
+
