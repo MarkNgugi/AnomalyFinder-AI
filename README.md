@@ -1,6 +1,8 @@
 # AnomalyFinder-AI
 AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data from various systems and applications. It identifies irregular patterns, provides descriptions of anomalies, and suggests solutions to prevent issues. 
 
+## =================SYSTEM ANOMALIES===================
+
 ## Authentication and Access
 
 - **Failed Login Attempts**: Excessive failed login attempts from a single user or IP address.
