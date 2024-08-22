@@ -42,3 +42,29 @@
     Brute-force attack detection
     Web shell uploads
     Insecure API access attempts
+
+3. Network Anomalies
+
+    Unusual outbound traffic spikes
+    Unresolved DNS requests
+    Network latency spikes
+    TCP connection reset anomalies
+    High number of open connections
+    IP address spoofing attempts
+    Unusual port scans
+    SYN flood attacks
+    Packet loss
+    Unexpected network protocol usage
+
+4. Application Anomalies
+
+    Application crashes
+    Memory leaks in applications
+    High database connection count
+    Missing or corrupted web content
+    Error in application logic leading to data inconsistency
+    Application resource deadlocks
+    Unresponsive application components
+    Excessive log generation by an application
+    Application startup delays
+    Malformed HTTP requests
