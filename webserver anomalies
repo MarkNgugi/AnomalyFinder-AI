@@ -1,0 +1,15 @@
+1. Traffic Anomalies
+
+    Unusually High Traffic: Sudden spikes in web traffic.
+    Unusually Low Traffic: Unexpected drops in web traffic.
+    Traffic from Suspicious IPs: Access attempts from known malicious IP addresses.
+    Unusual Geographic Traffic: Traffic coming from unexpected geographic locations.
+    High Number of Requests from Single IP: Excessive requests from a single IP address.
+
+2. Error Anomalies
+
+    High Rate of 404 Errors: Frequent "Page Not Found" errors.
+    High Rate of 500 Errors: Frequent server errors indicating internal issues.
+    High Rate of 403 Errors: Frequent access denied errors.
+    Frequent Database Connection Errors: Issues connecting to the database.
+    Frequent Timeout Errors: Requests that exceed the server’s timeout limit.
