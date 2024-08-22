@@ -68,3 +68,81 @@
     Excessive log generation by an application
     Application startup delays
     Malformed HTTP requests
+
+5. Configuration Anomalies
+
+    Misconfigured SSL/TLS settings
+    Missing or expired SSL certificates
+    Incorrect file permissions on web directories
+    Incorrect DNS configuration
+    Improper load balancer settings
+    HTTP headers missing security directives (e.g., Content Security Policy)
+    Unintentional server configuration changes
+    Web server configuration files tampering
+    Incorrect session management settings
+    Misconfigured application parameters
+
+6. Log Anomalies
+
+    Sudden spikes in error log entries
+    Unusual patterns in access logs
+    404 errors increase significantly
+    Log file rotation failures
+    Unauthorized access log entries
+    Unusual IP addresses accessing the server
+    Log entries from unrecognized user agents
+    Sudden changes in log file size
+    Log entries with non-standard status codes
+    Frequent login/logout patterns in logs
+
+7. User Behavior Anomalies
+
+    Unusual login patterns (e.g., different locations in a short time)
+    Abnormal user session durations
+    Frequent password reset requests
+    Suspicious user registration activity
+    Unauthorized access to admin panels
+    Excessive form submission attempts
+    Unusual API usage patterns by users
+    Multiple failed login attempts
+    Unusual data download activity
+    Abnormal user access times
+
+8. Content Delivery Anomalies
+
+    Issues with CDN integration
+    Cache miss anomalies leading to slow content delivery
+    Stale content being served
+    Inconsistent content across different regions
+    Content not being updated in real-time
+    Failures in content replication to CDN nodes
+    Content delivery delays during peak hours
+    Abnormal spikes in content delivery requests
+    Misrouting of content to incorrect regions
+    Inconsistent content compression
+
+9. Database Anomalies
+
+    Slow query execution times
+    Database connection timeout errors
+    High number of failed database transactions
+    Inconsistent data reads/writes
+    Database deadlocks
+    Unauthorized database access attempts
+    Missing database indices leading to performance issues
+    Database replication failures
+    Database corruption issues
+    High database load affecting web server performance
+
+10. Miscellaneous Anomalies
+
+    Unexpected server reboots
+    Backup failures
+    Resource allocation issues in virtualized environments
+    Unusual patterns in third-party API interactions
+    High number of redirects causing poor user experience
+    Unusual server start/stop events
+    Unstable third-party service integrations
+    Unusual peaks in web traffic (potential bots)
+    Unrecognized devices accessing the server
+    Disk space exhaustion due to log file growth
