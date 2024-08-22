@@ -146,3 +146,109 @@
     Unusual peaks in web traffic (potential bots)
     Unrecognized devices accessing the server
     Disk space exhaustion due to log file growth
+
+
+
+
+
+
+High 404 error rates
+Unexpected 500 Internal Server Errors
+Slow page load times
+Sudden spike in traffic
+Increased server response times
+Frequent timeouts
+Memory leaks
+High CPU usage
+Disk space exhaustion
+Unexpected server restarts
+Configuration changes without authorization
+Unusual spikes in bandwidth usage
+SQL injection attacks
+Cross-site scripting (XSS) attacks
+Cross-site request forgery (CSRF) attacks
+Denial of Service (DoS) attacks
+Brute force login attempts
+Unusual IP addresses accessing the server
+Session hijacking attempts
+Unauthorized file uploads
+Unexpected file permission changes
+Server crash
+Service unavailability
+Malware infections
+Phishing attempts
+SSL certificate expiration
+SSL/TLS handshake failures
+Unusual patterns of POST requests
+Missing or corrupt log files
+High number of redirects
+Failed database connections
+High error rates in logs
+Unauthorized access attempts
+Security patches not applied
+Sudden drop in traffic
+DNS resolution failures
+Broken links
+Server misconfigurations
+Unexpected content changes
+Unauthorized changes to web server settings
+Suspicious user agent strings
+High number of failed login attempts
+Changes to .htaccess file
+Directory traversal attacks
+Unusual HTTP methods in requests
+Sudden increase in HTTP 503 errors
+Unexpected redirects to external sites
+Presence of backdoors
+High volume of log data
+Failed software updates
+Unauthorized database queries
+Exposed sensitive information in logs
+Server overload
+Session timeouts
+Content Security Policy (CSP) violations
+Unexpected IP blocking
+Failed authentication attempts
+Sudden increase in outbound traffic
+Unexpected changes in server headers
+Excessive caching issues
+Script injection attacks
+Defacement of web pages
+Unauthorized API access
+Corrupted or missing files
+Suspicious access patterns
+Unexpected termination of server processes
+Malicious code injection
+Unauthorized script execution
+Server clock drift
+Unusual session durations
+Unusual error messages
+Load balancing issues
+Corrupted database tables
+Unusual file sizes
+High number of concurrent connections
+Unexpected changes in server logs
+High disk I/O
+Unusual DNS queries
+Server impersonation attacks
+Excessive error rates in specific regions
+Suspicious GET requests
+Insecure HTTP methods enabled
+Suspicious referral sources
+Failed content delivery
+Unexpected firewall rule changes
+IP address spoofing attempts
+High retry rates for specific endpoints
+Application layer DDoS attacks
+Unexpected reboots of web server
+File system corruption
+User account lockouts
+Unexpected access to restricted areas
+Insufficient resources for running services
+Unauthorized script modifications
+Unusual spikes in error logs
+Unpatched vulnerabilities
+Sudden changes in access patterns
+Unusual number of client errors (4xx)
+Suspicious redirection behavior
+Server access from blacklisted IPs
