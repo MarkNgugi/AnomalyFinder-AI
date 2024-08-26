@@ -49,10 +49,10 @@ Date,Time,EventID,TaskCategory,LogLevel,Keywords,User,Computer,Description
 2024-07-30,10:51:45,4648,Logon,Information,AUDIT_SUCCESS,UserA,ComputerA,A logon was attempted using explicit credentials.
 """
 
-# Load data into DataFrame
+# Loading data into DataFrame
 df = pd.read_csv(StringIO(data))
 
-# Combine Description and LogLevel into a single feature for vectorization
+# Combining Description and LogLevel into a single feature for vectorization
 df['Combined'] = df['Description'] + ' ' + df['LogLevel']
 
 # Vectorize the Combined feature
