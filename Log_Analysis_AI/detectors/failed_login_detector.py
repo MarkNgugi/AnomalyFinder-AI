@@ -11,7 +11,10 @@ class FailedLoginDetector:
         self.contamination = contamination
 
     def load_data(self, file_path):
-        self.df = pd.read_csv(file_path)
+        self.df = pd.read_json(file_path)
+        print("Columns in DataFrame:", self.df.columns)  # Debugging line
+        if 'timestamp' not in self.df.columns or 'event_id' not in self.df.columns:
+            raise ValueError("Log file must contain 'timestamp' and 'event_id' columns.")
         self.df['timestamp'] = pd.to_datetime(self.df['timestamp'])
         return self.df
 

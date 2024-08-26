@@ -11,6 +11,9 @@ def main():
     # Load the log data
     df = load_log_file(log_file_path)
     
+    # Save the DataFrame to a file to debug
+    df.to_csv('logs/debug_log_file.csv', index=False)  # Debugging line
+
     # Detect failed logins
     results = detector.detect_failures(log_file_path)
     
