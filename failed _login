@@ -1,0 +1,59 @@
+Key Patterns for Identifying Failed Login Attempts:
+
+    Excessive Failed Login Attempts from a Single User (Brute Force Attack)
+        Pattern: Multiple failed login attempts within a short time frame for the same AccountName.
+        Explanation: This could indicate a brute force attack where an attacker tries multiple passwords to gain access to a specific account.
+        Example: 10 failed login attempts for the user admin in 5 minutes.
+
+    Failed Logins from Multiple Users on a Single Machine (Spray Attack)
+        Pattern: Failed logins for multiple AccountName values originating from the same Source IP or Machine.
+        Explanation: This pattern could indicate a password spray attack where an attacker attempts a few common passwords across many accounts.
+        Example: Failed login attempts for user1, user2, user3 from IP 192.168.1.10.
+
+    Unusual Logon Types for Failed Attempts
+        Pattern: Repeated failed logon attempts with unusual LogonType values.
+        Explanation: Specific logon types (e.g., RemoteInteractive, Batch, or Network) might indicate attempts to access the system in non-standard ways, such as via Remote Desktop or automated scripts.
+        Example: Multiple failed logins with LogonType 10 (RemoteInteractive) or 3 (Network).
+
+    Failed Logins with Invalid or Disabled Account States
+        Pattern: Failed logon attempts where FailureReason is AccountDisabled, AccountExpired, AccountLockedOut, or InvalidUserName.
+        Explanation: Anomalous patterns involving disabled or invalid accounts could indicate attempts to access accounts that are no longer valid or deliberately locked out.
+        Example: Multiple failed login attempts with FailureReason AccountDisabled.
+
+    Failed Logins Outside of Normal Business Hours
+        Pattern: Failed login attempts that occur outside typical working hours or scheduled maintenance windows.
+        Explanation: If failed login attempts are detected during odd hours (e.g., midnight or weekends), they may indicate an unauthorized attempt.
+        Example: Failed logins between 1 AM and 3 AM when no users are expected to be active.
+
+    High Frequency of Failed Logins from a Single IP Address
+        Pattern: Multiple failed login attempts originating from the same Source IP.
+        Explanation: This may indicate that a specific external IP address is targeting a server or workstation for malicious access.
+        Example: 100 failed login attempts from IP 203.0.113.45 within 30 minutes.
+
+    Sequential Failed Logins for Different Users in a Short Time Frame
+        Pattern: Sequential failed login attempts for different users from the same source within seconds.
+        Explanation: This could indicate a script or automated tool attempting to guess passwords for different accounts.
+        Example: Failed logins for user1, user2, user3 within a 10-second window from the same IP.
+
+    Logons with Common Attack Vectors in Usernames
+        Pattern: Failed logon attempts using commonly targeted usernames like admin, administrator, root, test, or other default system accounts.
+        Explanation: These are common entry points that attackers attempt to gain access to high-privileged accounts.
+        Example: Multiple failed attempts targeting administrator.
+
+    Patterns Involving Geographic Location of IP Address
+        Pattern: Failed login attempts from unusual geographic locations compared to normal user activity.
+        Explanation: Anomalous geographic patterns might indicate an attempt from a foreign or unexpected location.
+        Example: Logins from IPs registered in different countries when users are normally local.
+
+    Recurrent Failed Logins Followed by a Successful Login
+        Pattern: A pattern where multiple failed attempts are immediately followed by a successful login.
+        Explanation: This could indicate that an attacker has finally guessed the correct password after multiple attempts.
+        Example: 5 failed login attempts for admin followed by a successful login from the same IP.
+
+How to Utilize These Patterns:
+
+    Data Aggregation: Collect and aggregate log data from different sources to detect patterns over time.
+    Statistical Analysis: Use statistical methods like Z-score to determine outliers in failed login frequencies.
+    Machine Learning: Use machine learning models (e.g., Isolation Forest, One-Class SVM) to learn normal user behavior and flag deviations as potential anomalies.
+    Threshold-based Alerts: Set thresholds for certain metrics (e.g., number of failed logins per minute) to generate alerts when these thresholds are exceeded.
+    Correlate with Other Events: Combine failed login attempts with other security events (e.g., firewall logs, IDS alerts) to gain a comprehensive view of potential threats.
