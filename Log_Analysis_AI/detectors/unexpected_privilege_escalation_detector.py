@@ -93,5 +93,5 @@ class UnexpectedPrivilegeEscalationDetector:
 
 if __name__ == "__main__":
     # Example usage
-    detector = UnexpectedPrivilegeEscalationDetector(logs_file='sample_windows_event_logs.json')
+    detector = UnexpectedPrivilegeEscalationDetector(logs_file='/home/smilex/Documents/DJANGO/AI/Log_Analysis_AI/logs/sample_logs.json')
     detector.run()

@@ -1,418 +1,62 @@
 [
     {
-        "Timestamp": "2024-08-28T12:00:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4672",
+        "TimeGenerated": "2024-08-31 14:32:12",
+        "User": "user1",
+        "EventMessage": "Special privileges assigned to new logon. User 'user1' logged on with administrative privileges."
     },
     {
-        "Timestamp": "2024-08-28T12:01:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4672",
+        "TimeGenerated": "2024-08-31 14:35:45",
+        "User": "user2",
+        "EventMessage": "Special privileges assigned to new logon. User 'user2' logged on with administrative privileges."
     },
     {
-        "Timestamp": "2024-08-28T12:02:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4673",
+        "TimeGenerated": "2024-08-31 14:40:01",
+        "User": "user1",
+        "EventMessage": "A privileged service was called. User 'user1' attempted to call a privileged service."
     },
     {
-        "Timestamp": "2024-08-28T12:03:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4674",
+        "TimeGenerated": "2024-08-31 14:41:20",
+        "User": "user1",
+        "EventMessage": "An operation was attempted on a privileged object. User 'user1' tried to modify a privileged object."
     },
     {
-        "Timestamp": "2024-08-28T12:04:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4672",
+        "TimeGenerated": "2024-08-31 15:01:08",
+        "User": "user3",
+        "EventMessage": "Special privileges assigned to new logon. User 'user3' logged on with administrative privileges."
     },
     {
-        "Timestamp": "2024-08-28T12:05:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4672",
+        "TimeGenerated": "2024-08-31 15:10:09",
+        "User": "user4",
+        "EventMessage": "Special privileges assigned to new logon. User 'user4' logged on with administrative privileges."
     },
     {
-        "Timestamp": "2024-08-28T12:06:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4673",
+        "TimeGenerated": "2024-08-31 15:15:35",
+        "User": "user4",
+        "EventMessage": "A privileged service was called. User 'user4' attempted to call a privileged service."
     },
     {
-        "Timestamp": "2024-08-28T12:07:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4673",
+        "TimeGenerated": "2024-08-31 15:22:50",
+        "User": "user5",
+        "EventMessage": "A privileged service was called. User 'user5' attempted to call a privileged service."
     },
     {
-        "Timestamp": "2024-08-28T12:08:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4674",
+        "TimeGenerated": "2024-08-31 15:25:10",
+        "User": "user5",
+        "EventMessage": "An operation was attempted on a privileged object. User 'user5' tried to modify a privileged object."
     },
     {
-        "Timestamp": "2024-08-28T12:09:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:10:00Z",
-        "SourceIP": "192.168.1.10",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:15:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user1",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:16:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user2",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:17:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user3",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:18:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user4",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:19:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user5",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:20:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user6",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:21:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user7",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:22:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user8",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:23:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user9",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T12:24:00Z",
-        "SourceIP": "192.168.1.20",
-        "AccountName": "user10",
-        "LogonType": 10,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T00:30:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T01:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T02:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T03:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T04:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T05:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T06:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T07:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T08:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:00:00Z",
-        "SourceIP": "192.168.1.30",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:10:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Success",
-        "FailureReason": null
-    },
-    {
-        "Timestamp": "2024-08-28T09:15:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:16:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:17:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:18:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:19:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:20:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:21:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:22:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:23:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T09:24:00Z",
-        "SourceIP": "192.168.1.40",
-        "AccountName": "admin",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:00:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:05:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:10:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:15:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:20:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:25:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:30:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:35:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:40:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
-    },
-    {
-        "Timestamp": "2024-08-28T14:45:00Z",
-        "SourceIP": "203.0.113.45",
-        "AccountName": "testuser",
-        "LogonType": 3,
-        "EventID": "Failure",
-        "FailureReason": "InvalidUserName"
+        "EventID": "4672",
+        "TimeGenerated": "2024-08-31 15:30:05",
+        "User": "user1",
+        "EventMessage": "Special privileges assigned to new logon. User 'user1' logged on with administrative privileges."
     }
 ]
