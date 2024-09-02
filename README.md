@@ -21,7 +21,7 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 
 - **Frequent System Reboots**: Unscheduled or frequent system reboots.
 - **Application Crashes**: High frequency of application crashes or unexpected terminations.
-- **Service Failures**: Repeated failures of critical services or system components.
+- **Service Failures**: Repeated failures of critical services or system components. 
 - **Blue Screen of Death (BSOD)**: Unplanned system crashes resulting in BSOD errors.
 - **Event Log Corruption**: Errors indicating corruption or issues with the event log itself.
 - **High System Resource Usage**: Unusual spikes in CPU, memory, or disk usage.
@@ -34,9 +34,9 @@ AnomalyFinder-AI is an AI tool for detecting and analyzing anomalies in log data
 ## Security Events
 
 - **Malware Detection Alerts**: Alerts from antivirus or security software about detected malware.
-- **Unauthorized Access to Sensitive Files**: Access attempts to sensitive or restricted files.
+- **Unauthorized Access to Sensitive Files**: Access attempts to sensitive or restricted files. *
 - **Suspicious PowerShell Commands**: Execution of unusual or potentially harmful PowerShell commands.
-- **File Integrity Changes**: Unexpected changes to critical system or application files.
+- **File Integrity Changes**: Unexpected changes to critical system or application files. *
 - **Unusual Network Connections**: Connections to unknown or unauthorized network addresses.
 - **Unauthorized Administrative Actions**: Administrative actions performed by non-administrative users.
 - **Event Log Clearing**: Unusual clearing or modification of event log entries.
