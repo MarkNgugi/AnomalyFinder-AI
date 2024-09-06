@@ -1,20 +1,22 @@
 [
-    {
-        "EventID": 1102,
-        "AccountName": "system",
-        "Timestamp": "2024-08-30T10:00:00",
-        "Message": "The audit log was cleared."
-    },
-    {
-        "EventID": 104,
-        "AccountName": "system",
-        "Timestamp": "2024-08-30T10:30:00",
-        "Message": "Event log corruption detected."
-    },
-    {
-        "EventID": 6005,
-        "AccountName": "system",
-        "Timestamp": "2024-08-30T11:00:00",
-        "Message": "The Event Log service was started."
-    }
-]
+{
+    "timestamp": "2024-09-05T12:00:00Z",
+    "process_name": "example.exe",
+    "cpu_usage": 85
+  },
+  {
+    "timestamp": "2024-09-05T12:05:00Z",
+    "process_name": "another_process.exe",
+    "cpu_usage": 55
+  },
+  {
+    "timestamp": "2024-09-05T12:10:00Z",
+    "process_name": "high_usage_process.exe",
+    "cpu_usage": 120
+  },
+  {
+    "timestamp": "2024-09-05T12:15:00Z",
+    "process_name": "low_usage_process.exe",
+    "cpu_usage": -5
+  }
+]        

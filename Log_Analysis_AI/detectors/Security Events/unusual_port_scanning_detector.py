@@ -68,3 +68,4 @@ sample_logs = [
 # Run the detection module
 suspicious_ips = is_port_scanning(sample_logs)
 print("Suspicious IPs detected:", suspicious_ips)
+
