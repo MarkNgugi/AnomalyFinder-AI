@@ -1,0 +1,159 @@
+1. Traffic Patterns and Load Anomalies
+
+    Unusual Traffic Spikes: Sudden increases in traffic that deviate from normal patterns.
+    Low Traffic Volume: Unexpected drops in web traffic compared to historical data.
+    High Number of Requests: Excessive requests from a single IP address in a short period.
+    Unexpected Geographical Traffic: Traffic coming from countries or regions not usually seen.
+    High Number of 4xx Errors: A surge in client-side errors (e.g., 404 Not Found).
+    High Number of 5xx Errors: A surge in server-side errors (e.g., 500 Internal Server Error).
+    Traffic From Known Bad IPs: Requests from IP addresses listed in threat databases.
+    Anomalous Traffic Sources: Requests originating from unusual or suspicious sources.
+    Unusual Referrer Patterns: Requests coming from unexpected referrer URLs.
+    Abnormal User Agents: Traffic from unknown or rare user agents.
+
+2. Security and Attack Indicators
+
+    SQL Injection Attempts: Requests containing SQL injection payloads.
+    Cross-Site Scripting (XSS) Attempts: Requests with XSS attack vectors.
+    Brute Force Attacks: Multiple failed login attempts indicating a brute force attack.
+    Directory Traversal Attacks: Requests attempting to access restricted directories.
+    Path Traversal Attempts: Requests with suspicious file paths aiming to access unauthorized files.
+    Command Injection Attempts: Requests trying to execute system commands via the web server.
+    Exploit Attempts: Requests containing known exploits for vulnerabilities.
+    Denial of Service (DoS) Attacks: Traffic designed to overwhelm server resources.
+    Distributed Denial of Service (DDoS) Attacks: Large-scale traffic floods from multiple sources.
+    Suspicious IP Geolocation: Requests from IP addresses with unusual geographical locations.
+
+3. Authentication and Access Issues
+
+    Failed Authentication Attempts: Repeated failed login attempts for a particular user.
+    Excessive Login Attempts: High number of login attempts within a short time frame.
+    Account Lockouts: Multiple failed attempts leading to account lockouts.
+    Unauthorized Access Attempts: Requests to restricted areas without proper credentials.
+    Privilege Escalation Attempts: Attempts to access or modify resources beyond user privileges.
+
+4. Performance and Resource Usage
+
+    Slow Response Times: Requests taking significantly longer than usual to process.
+    High CPU Usage: Unusual spikes in CPU utilization by the web server.
+    High Memory Usage: Unexpected increases in memory consumption.
+    Excessive Disk I/O: High levels of disk read/write operations.
+    Long Running Queries: Queries taking excessively long to execute.
+    High Bandwidth Usage: Unexpected increases in data transferred to and from the server.
+    Service Failures: Unscheduled service crashes or restarts.
+    Error Rate Spikes: Sudden increases in error rates across various services.
+
+5. Log and Configuration Changes
+
+    Log File Tampering: Modifications or deletions of log files.
+    Unusual Configuration Changes: Changes to server configurations not authorized or expected.
+    New or Unexpected Configuration Files: Presence of new configuration files in the server.
+    Unscheduled Server Restarts: Unexpected restarts or shutdowns of the server.
+    Changes in SSL/TLS Certificates: Unexpected modifications to SSL/TLS certificates.
+
+6. Data and Content Integrity
+
+    Content Injection: Unapproved content being served on the website.
+    Unusual File Uploads: Uploads of unexpected or potentially harmful files.
+    Unexpected File Modifications: Changes to files that are not expected or authorized.
+    Suspicious File Access Patterns: Access patterns that suggest unauthorized data access.
+    Database Corruption or Access Issues: Anomalies related to database integrity and access.
+
+7. Network and Connectivity Issues
+
+    Failed Network Connections: High frequency of failed network connections.
+    Unusual Protocol Usage: Usage of unusual or unsupported network protocols.
+    Network Latency Spikes: Unexpected increases in network latency.
+    Connection Timeouts: High frequency of connection timeout errors.
+    Abnormal Outbound Traffic: Unusual levels of outbound traffic from the server.
+
+8. User Behavior and Interaction
+
+    High User Activity Levels: Unexpected surges in user interactions or page views.
+    Unusual Navigation Patterns: Users navigating through unexpected or unauthorized paths.
+    Abnormal Session Durations: Sessions lasting unusually long or short.
+    Frequent Logouts or Session Terminations: High frequency of user logouts or session expirations.
+    Unexpected Search Queries: High volumes of unexpected or unusual search queries.
+
+9. File and Directory Access
+
+    Unauthorized File Access Attempts: Attempts to access files without proper permissions.
+    Suspicious Directory Listings: Access to directory listings that should be restricted.
+    File Download Anomalies: Large numbers of file downloads or downloads of unusual files.
+    High Volume of File Requests: Large numbers of requests for specific files or directories.
+
+10. Application-Specific Issues
+
+    Application Errors: High frequency of application-specific errors.
+    Unexpected Application Crashes: Application crashes occurring outside of normal patterns.
+    Unusual Application Behavior: Behavior of applications that deviates from normal operation.
+    Invalid API Requests: Requests to APIs with malformed or unexpected parameters.
+
+11. Logging and Monitoring Issues
+
+    Missing Log Entries: Absence of expected log entries.
+    Unusual Log Volume: Abnormal increases or decreases in the volume of log entries.
+    Inconsistent Log Formats: Logs with formats differing from the expected pattern.
+    Log Aggregation Failures: Issues with aggregating or collecting logs from various sources.
+
+12. Security Configuration Issues
+
+    Disabled Security Features: Security features or controls that are disabled unexpectedly.
+    Changes in Security Policies: Unauthorized changes to security policies or rules.
+    Unusual Access Control Changes: Modifications to access control lists or permissions.
+
+13. SSL/TLS and Encryption Issues
+
+    Expired SSL/TLS Certificates: Usage of expired or soon-to-expire SSL/TLS certificates.
+    Weak Encryption Algorithms: Usage of weak or deprecated encryption algorithms.
+    SSL/TLS Misconfigurations: Misconfigurations in SSL/TLS settings or protocols.
+
+14. API and Web Service Anomalies
+
+    API Rate Limit Exceeded: Excessive requests to APIs beyond rate limits.
+    Unexpected API Endpoints: Requests to non-existent or unexpected API endpoints.
+    Malformed API Requests: API requests with incorrect formatting or parameters.
+    API Authentication Failures: High number of failed API authentication attempts.
+
+15. Server Health and Availability
+
+    Server Downtime: Unexpected periods of server unavailability.
+    High Resource Utilization: Unusual spikes in server resource usage (CPU, memory, disk).
+    Service Degradation: Gradual decrease in server performance over time.
+
+16. Data Exfiltration and Leakage
+
+    Large Data Transfers: Unusually large amounts of data being transferred out of the server.
+    Suspicious Data Access Patterns: Patterns of data access indicative of exfiltration attempts.
+    Unexpected Database Queries: Queries that are unexpected or unusual in nature.
+
+17. Caching and CDN Issues
+
+    Cache Miss Rates: High rates of cache misses indicating potential issues with caching.
+    CDN Configuration Issues: Problems with Content Delivery Network (CDN) configuration or performance.
+    Unexpected CDN Traffic: Unusual traffic patterns or requests served by the CDN.
+
+18. Compliance and Regulatory Issues
+
+    Data Privacy Violations: Access to or exposure of sensitive data contrary to regulations.
+    Unreported Security Incidents: Security incidents not reported or documented according to compliance requirements.
+
+19. Integration and Dependency Issues
+
+    Third-Party Service Failures: Failures or issues with third-party services integrated with the web server.
+    Dependency Failures: Failures in dependencies that affect the web server’s operation.
+
+20. Miscellaneous Anomalies
+
+    Unexpected File Permissions: Files with unexpected or incorrect permissions.
+    Unusual URL Patterns: Requests with URL patterns that deviate from the norm.
+    Unexpected Script Execution: Execution of scripts that are not normally run.
+    Abnormal HTML or JavaScript Errors: Errors in HTML or JavaScript that occur unusually.
+    Changes in Session IDs: Unexpected changes or rotations of session IDs.
+    Malformed Log Entries: Logs with corrupt or malformed data.
+    Unusual Proxy Requests: Requests coming from or going to proxy servers in unexpected ways.
+    Unexpected Use of Deprecated Features: Usage of deprecated features or protocols.
+    High Number of Redirects: Excessive redirects occurring during user navigation.
+    Unusual Server Header Values: Server responses with unexpected or unusual header values.
+    Abnormal Cookie Behavior: Cookies being set, read, or deleted in unusual patterns.
+    Unplanned Maintenance Events: Unexpected or unplanned maintenance activities affecting server performance.
