@@ -2,7 +2,11 @@ import json
 from datetime import datetime, timedelta
 from collections import Counter
 from typing import List, Dict, Any
+#print the first expression
 
+
+
+print ('STARTING THE ANALYSIS PROCESS')
 # Load Logs Function
 def load_logs(filepath: str) -> List[Dict[str, Any]]:
     """Load logs from a JSON file."""
